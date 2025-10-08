@@ -1,4 +1,5 @@
 #include <stdio.h>
+// WAP to calculate Area of a Triangle.
 #define PI 3.14
 int main() {
   float radius, area;
