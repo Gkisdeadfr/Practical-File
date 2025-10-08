@@ -1,7 +1,7 @@
 // Write a C program to swap two variables without using a third variable.
 #include <stdio.h>
 
-void temp_variable() {
+void arithmetic() {
     int a, b;
 
     printf("Enter first number: ");
@@ -46,12 +46,12 @@ void xor_method() {
 int main() {
   int option;
   printf("Choose Swapping method\n");
-  printf("Press 1 for temp_variable\n");
+  printf("Press 1 for arithmetic\n");
   printf("Press 2 for xor_method\n");
   printf("Your choice: ");
   scanf("%d", &option);
   if(option == 1) {
-    temp_variable();
+    arithmetic();
   }
   else if(option == 2) {
     xor_method();
