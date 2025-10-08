@@ -10,4 +10,6 @@ int main() {
   c=a+b;
   printf("The sum of the two numbers is: %d\n", c);
  
+
+  return 0;
 }

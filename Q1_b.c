@@ -13,4 +13,5 @@ int main() {
   d=a+b+c;
   printf("The sum of the three numbers is: %d\n", d);
  
+  return 0;
 }
