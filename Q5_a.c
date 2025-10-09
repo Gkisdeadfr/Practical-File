@@ -9,6 +9,8 @@ int main() {
   c=a;
   a=b;
   b=c;
+  printf("After swapping:  a = %d, b = %d\n", a, b);
+
 
   return 0;
 }
