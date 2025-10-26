@@ -21,8 +21,6 @@ void arithmetic() {
 
 }
 
-#include <stdio.h>
-
 void xor_method() {
     int a, b;
 
