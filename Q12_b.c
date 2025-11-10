@@ -1,6 +1,6 @@
 // Write a C program a program to check whether an alphabet is a vowel or consonant.
 #include <stdio.h>
-#include <ctype.h> // For isalpha() and tolower()
+#include <ctype.h> // to get isalpha() and tolower() functions
 
 // Function 1: Using if-else
 void checkWithIf(char ch) {
