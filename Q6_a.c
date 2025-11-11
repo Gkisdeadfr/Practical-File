@@ -9,7 +9,7 @@ int main(){
   h = (seconds/3600);
   m = (seconds -(3600*h))/60;
   s = (seconds -(3600*h)-(60*m));
-  printf("The time in H:M:S is:: %d:%d:%d", h,m,s);
+  printf("The time in H:M:S is:: %d:%d:%d\n", h,m,s);
 
   return 0;
 }
