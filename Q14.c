@@ -26,6 +26,7 @@ int main() {
         case ('/'):
             c= a/b;
             printf("The value of c is: %d\n", c) ;
+            break;
             
         default :
             printf("Please try again :)\n ") ;
